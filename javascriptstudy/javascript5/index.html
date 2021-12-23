@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjavascript.js"></script>
+    <script>
+      
+        alert('这是我的第一行js代码');
+        document.write('あなたはかっこいいですね');
+        document.write('<h1>こんな書き方もできるよ</h1>');
+        console.log('你猜我在哪出来');
+
+        var namae = 'チョメロ';
+        var gender = '男';
+        var age = 18;
+
+        var mingzi = ['佐藤','鈴木','加藤','伊東'];
+        console.log(mingzi[2]);
+
+        var tokyo = ['チョメロ',23,176,57,'食べる'];
+        for( i = 0; i <=4; i++ ){ 
+            alert(tokyo[i]);
+        }
+
+        var a = new Array('チョもろ',23,174,57,'食う');
+        for(i = 0; i <= 4; i++){
+            alert(a[i]);
+        }
+
+        var arr = ['red','green','blue'];
+        for(i = 0; i <= 2; i++){
+            alert(arr[i]);
+        }
+
+
+        // name gender age 
+        var A = '孙悟空';
+        var B = '男';
+        var C = '18';
+
+        var obje = {namae:'チョメロ',gender:'男',age:18};
+        alert(obje.namae);
+        alert(obje.age);
+        alert(obje.gender);
+
+
+
+        var duixiang = {
+            mingzi:'小とうとう',
+            gender:'男',
+            siri:'sarujiri',
+            age:23,
+            face:'メガネをかけている'
+        }; 
+        alert(duixiang.mingzi);
+        alert(duixiang.gender);
+        alert(duixiang.siri);
+        alert(duixiang.age);
+        alert(duixiang.face); 
+
+        
+
+
+
+
+
+
+        var abj = new Object();
+        console.log(typeof abj);
+
+         var dui = new Date();
+         console.log(typeof dui);
+
+         var ptn = new RegExp();
+         console.log(typeof ptn);
+
+
+         var xiang = new Object();
+         console.log(typeof xiang);
+        
+
+
+
+
+        var dog = {
+            namae:'可可',
+            type:'阿拉斯加犬',
+            age:'5岁',
+            color:'棕红色',
+        };
+
+        var ldh = {
+            namae:'刘德华',
+            sex:'男',
+            age:58,
+            high:168,
+            singing:'冰雨'
+        };
+
+        var zxy = {
+            namae:'张学友',
+            sex:'男',
+            age:60,
+            high:170,
+            singing:'慢慢'
+        };
+
+        var gfc = {
+            namae:'郭富城',
+            sex:'男',
+            age:61,
+            high:173,
+            singing:'慢慢'
+        };
+
+
+        function Star(uname,age,sex){
+            this.name = uname;
+            this.age = age;
+            this.sex = sex;
+
+        }
+
+        var ldh = new Star('刘德华',18,'男');
+        var gfc = new Star('郭富城',29,'男');
+        var zxy = new Star('张学友',30,'男');
+
+
+         
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    
+
+       
+        
+
+
+
+    </script>
+</head>
+<body>
+    <button onclick="alert('いいね');">点我一下</button>
+    <a href="javascript:alert('让你点你就点');">你也点我一下</a>
+    <a href="javascript:;">你也点我一下</a>
+    
+</body>
+</html>

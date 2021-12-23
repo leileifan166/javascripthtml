@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+    <script>
+        document.write("<h1>hello,world</h1>");  
+    </script>
+    <script>
+        //共用函数
+        function hello(user){
+            return "<h1>hello," + user + "</h1>";
+        }
+    </script>
+
+</head>
+<script>
+    var user = "world";
+</script>
+<body>
+    <p id="box">javascript脚本岂能随意放置？！</p>
+    <script>document.getElementById("box").style.fontSize ="50px";</script>
+    <script>
+        document.write(hello(user));
+    </script>
+    
+    
+</body>
+</html>
